@@ -1,0 +1,28 @@
+1. launch instance 
+2. amazon Linux 
+3. amazon Linux 2 ami
+4. allow https 
+5. allow http
+6. create instance 
+7. view all instance 
+8. connect to instance 
+cmds:
+9. sudo su -
+10. yum update -y
+11. yum install -y httpd 
+12. systemctl status httpd 
+13. mkdir temp
+14. cd temp/
+15. wget (zipfileaddress)
+16. ls -lrt
+17. unzip (zipfilename).zip
+18. ls -lrt
+19. cd (file name)
+20. ls -lrt
+21. mv * /var/www//html/
+22. cd /var/www/html/
+23. ls -lrt
+24. systemctl status httpd
+25. systemctl enable httpd 
+26. systemctl start httpd 
+27. systemctl status httpd
